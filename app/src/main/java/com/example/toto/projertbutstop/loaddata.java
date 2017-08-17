@@ -133,6 +133,9 @@ public class loaddata extends AppCompatActivity {
             //No Data and Not Internet
             Toast.makeText(loaddata.this,"Connot Work beacuse no Data And Internet", Toast.LENGTH_LONG).show();
         }
+        else{
+            RefreahSQLite();
+        }
     }
     private void checkInternet() {
         ConnectivityManager connectivityManager = (ConnectivityManager) loaddata.this.getSystemService(CONNECTIVITY_SERVICE);
