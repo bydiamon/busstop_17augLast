@@ -12,7 +12,7 @@ import android.util.Log;
 public class MyOpenHelper extends SQLiteOpenHelper {
     private static final String TAG = MyOpenHelper.class.getSimpleName();
     //สร้างฐานข้อมูล
-    private static final String DATABASE_NAME = "Busstop.db";
+    public static final String DATABASE_NAME = "Busstop.db";
     //เวอร์ชั่นฐานข้อมูล
     private static final int DATABASE_VERSION = 1;
 
